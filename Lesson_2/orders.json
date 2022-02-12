@@ -1,0 +1,32 @@
+{
+    "orders": [
+        {
+            "item": "Intel Core 2 Duo E8600",
+            "quantity": 1,
+            "price": 1072.59,
+            "buyer": "Pavel",
+            "date": "07.12.2017"
+        },
+        {
+            "item": "Intel Core 2 Quad Q9650",
+            "quantity": 1,
+            "price": 3187.01,
+            "buyer": "Alex",
+            "date": "16.04.2018"
+        },
+        {
+            "item": "Intel Xeon E3-1226V3",
+            "quantity": 1,
+            "price": 3557.3,
+            "buyer": "Daria",
+            "date": "01.11.2021"
+        },
+        {
+            "item": "Intel Xeon E3-1270V3",
+            "quantity": 1,
+            "price": 3826.61,
+            "buyer": "Sergey",
+            "date": "22.01.2022"
+        }
+    ]
+}
