@@ -67,3 +67,60 @@
 2022-03-11 21:44:57,429  DEBUG     client.py  Сформирован словарь сообщения: {'action': 'message', 'time': 1647024297.4289658, 'account_name': 'Guest', 'mess_text': 'Hi!'}
 2022-03-11 21:44:57,429  DEBUG     decos.py   Была вызвана функция: create_message, с параметрами: (<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 40562), raddr=('127.0.0.1', 7777)>,), {}. Вызов из модуля: __main__. Вызов из функции: main()
 2022-03-11 21:45:01,021  INFO      client.py  Завершение работы по команде "quit" пользователя Guest.
+2022-03-25 21:49:42,295  DEBUG     decos.py   Была вызвана функция: arg_parser, с параметрами: (), {}. Вызов из модуля: __main__. Вызов из функции: main()
+2022-03-25 21:49:42,296  INFO      client.py  Запущен клиент с параметрами: адрес сервера: 127.0.0.1, порт: 7777, имя пользователя: User1.
+2022-03-25 21:49:42,297  DEBUG     client.py  Сформировано "presence" сообщение для пользователя "User1"
+2022-03-25 21:49:42,297  DEBUG     decos.py   Была вызвана функция: create_presence, с параметрами: ('User1',), {}. Вызов из модуля: __main__. Вызов из функции: main()
+2022-03-25 21:49:42,484  DEBUG     decos.py   Была вызвана функция: arg_parser, с параметрами: (), {}. Вызов из модуля: __main__. Вызов из функции: main()
+2022-03-25 21:49:42,485  INFO      client.py  Запущен клиент с параметрами: адрес сервера: 127.0.0.1, порт: 7777, имя пользователя: User2.
+2022-03-25 21:49:42,486  DEBUG     decos.py   Была вызвана функция: get_message, с параметрами: (<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 36836), raddr=('127.0.0.1', 7777)>,), {}. Вызов из модуля: common.utils. Вызов из функции: main()
+2022-03-25 21:49:42,486  DEBUG     client.py  Сформировано "presence" сообщение для пользователя "User2"
+2022-03-25 21:49:42,486  DEBUG     client.py  Разбор сообщения от сервера: {'response': 200}
+2022-03-25 21:49:42,486  DEBUG     decos.py   Была вызвана функция: create_presence, с параметрами: ('User2',), {}. Вызов из модуля: __main__. Вызов из функции: main()
+2022-03-25 21:49:42,486  DEBUG     decos.py   Была вызвана функция: process_ans, с параметрами: ({'response': 200},), {}. Вызов из модуля: __main__. Вызов из функции: main()
+2022-03-25 21:49:42,486  INFO      client.py  Установлено соединение с сервером. Принят ответ: 200: OK
+2022-03-25 21:49:42,496  DEBUG     client.py  Запущены процессы приема и отправки сообщений.
+2022-03-25 21:49:42,639  DEBUG     decos.py   Была вызвана функция: arg_parser, с параметрами: (), {}. Вызов из модуля: __main__. Вызов из функции: main()
+2022-03-25 21:49:42,639  INFO      client.py  Запущен клиент с параметрами: адрес сервера: 127.0.0.1, порт: 7777, имя пользователя: User3.
+2022-03-25 21:49:42,639  DEBUG     client.py  Сформировано "presence" сообщение для пользователя "User3"
+2022-03-25 21:49:42,639  DEBUG     decos.py   Была вызвана функция: create_presence, с параметрами: ('User3',), {}. Вызов из модуля: __main__. Вызов из функции: main()
+2022-03-25 21:49:42,640  DEBUG     decos.py   Была вызвана функция: get_message, с параметрами: (<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 36838), raddr=('127.0.0.1', 7777)>,), {}. Вызов из модуля: common.utils. Вызов из функции: main()
+2022-03-25 21:49:42,640  DEBUG     client.py  Разбор сообщения от сервера: {'response': 200}
+2022-03-25 21:49:42,640  DEBUG     decos.py   Была вызвана функция: process_ans, с параметрами: ({'response': 200},), {}. Вызов из модуля: __main__. Вызов из функции: main()
+2022-03-25 21:49:42,641  INFO      client.py  Установлено соединение с сервером. Принят ответ: 200: OK
+2022-03-25 21:49:42,641  DEBUG     client.py  Запущены процессы приема и отправки сообщений.
+2022-03-25 21:49:42,842  DEBUG     decos.py   Была вызвана функция: get_message, с параметрами: (<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 36840), raddr=('127.0.0.1', 7777)>,), {}. Вызов из модуля: common.utils. Вызов из функции: main()
+2022-03-25 21:49:42,842  DEBUG     client.py  Разбор сообщения от сервера: {'response': 200}
+2022-03-25 21:49:42,842  DEBUG     decos.py   Была вызвана функция: process_ans, с параметрами: ({'response': 200},), {}. Вызов из модуля: __main__. Вызов из функции: main()
+2022-03-25 21:49:42,842  INFO      client.py  Установлено соединение с сервером. Принят ответ: 200: OK
+2022-03-25 21:49:42,843  DEBUG     client.py  Запущены процессы приема и отправки сообщений.
+2022-03-25 21:50:13,550  DEBUG     client.py  Сформирован словарь сообщения: {'action': 'message', 'from': 'User1', 'to': 'User3', 'time': 1648234213.5502112, 'mess_text': 'Hello!'}
+2022-03-25 21:50:13,550  INFO      client.py  Отправлено сообщение для пользователя User3
+2022-03-25 21:50:13,552  DEBUG     decos.py   Была вызвана функция: create_message, с параметрами: (<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 36836), raddr=('127.0.0.1', 7777)>, 'User1'), {}. Вызов из модуля: __main__. Вызов из функции: self._bootstrap_inner()
+2022-03-25 21:50:13,683  DEBUG     decos.py   Была вызвана функция: get_message, с параметрами: (<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 36840), raddr=('127.0.0.1', 7777)>,), {}. Вызов из модуля: common.utils. Вызов из функции: self._bootstrap_inner()
+2022-03-25 21:50:13,683  INFO      client.py  Получено сообщение от пользователя User1: "Hello!"
+2022-03-25 21:50:31,487  DEBUG     client.py  Сформирован словарь сообщения: {'action': 'message', 'from': 'User3', 'to': 'User1', 'time': 1648234231.4870095, 'mess_text': 'Hi!'}
+2022-03-25 21:50:31,487  INFO      client.py  Отправлено сообщение для пользователя User1
+2022-03-25 21:50:31,487  DEBUG     decos.py   Была вызвана функция: create_message, с параметрами: (<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 36840), raddr=('127.0.0.1', 7777)>, 'User3'), {}. Вызов из модуля: __main__. Вызов из функции: self._bootstrap_inner()
+2022-03-25 21:50:31,507  DEBUG     decos.py   Была вызвана функция: get_message, с параметрами: (<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 36836), raddr=('127.0.0.1', 7777)>,), {}. Вызов из модуля: common.utils. Вызов из функции: self._bootstrap_inner()
+2022-03-25 21:50:31,507  INFO      client.py  Получено сообщение от пользователя User3: "Hi!"
+2022-03-25 21:51:01,624  DEBUG     client.py  Сформирован словарь сообщения: {'action': 'message', 'from': 'User2', 'to': 'User1', 'time': 1648234261.62445, 'mess_text': 'Hi, User1!'}
+2022-03-25 21:51:01,624  INFO      client.py  Отправлено сообщение для пользователя User1
+2022-03-25 21:51:01,625  DEBUG     decos.py   Была вызвана функция: create_message, с параметрами: (<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 36838), raddr=('127.0.0.1', 7777)>, 'User2'), {}. Вызов из модуля: __main__. Вызов из функции: self._bootstrap_inner()
+2022-03-25 21:51:01,746  DEBUG     decos.py   Была вызвана функция: get_message, с параметрами: (<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 36836), raddr=('127.0.0.1', 7777)>,), {}. Вызов из модуля: common.utils. Вызов из функции: self._bootstrap_inner()
+2022-03-25 21:51:01,746  INFO      client.py  Получено сообщение от пользователя User2: "Hi, User1!"
+2022-03-25 21:51:09,185  DEBUG     decos.py   Была вызвана функция: create_exit_message, с параметрами: ('User2',), {}. Вызов из модуля: __main__. Вызов из функции: self._bootstrap_inner()
+2022-03-25 21:51:09,185  INFO      client.py  Завершение работы по команде пользователя.
+2022-03-25 21:51:09,356  CRITICAL  client.py  Потеряно соединение с сервером.
+2022-03-25 21:51:09,356  DEBUG     decos.py   Была вызвана функция: message_from_server, с параметрами: (<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 36838), raddr=('127.0.0.1', 7777)>, 'User2'), {}. Вызов из модуля: __main__. Вызов из функции: self._bootstrap_inner()
+2022-03-25 21:51:09,686  DEBUG     decos.py   Была вызвана функция: user_interactive, с параметрами: (<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 36838), raddr=('127.0.0.1', 7777)>, 'User2'), {}. Вызов из модуля: __main__. Вызов из функции: self._bootstrap_inner()
+2022-03-25 21:51:15,889  DEBUG     decos.py   Была вызвана функция: create_exit_message, с параметрами: ('User3',), {}. Вызов из модуля: __main__. Вызов из функции: self._bootstrap_inner()
+2022-03-25 21:51:15,889  INFO      client.py  Завершение работы по команде пользователя.
+2022-03-25 21:51:15,966  CRITICAL  client.py  Потеряно соединение с сервером.
+2022-03-25 21:51:15,966  DEBUG     decos.py   Была вызвана функция: message_from_server, с параметрами: (<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 36840), raddr=('127.0.0.1', 7777)>, 'User3'), {}. Вызов из модуля: __main__. Вызов из функции: self._bootstrap_inner()
+2022-03-25 21:51:16,390  DEBUG     decos.py   Была вызвана функция: user_interactive, с параметрами: (<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 36840), raddr=('127.0.0.1', 7777)>, 'User3'), {}. Вызов из модуля: __main__. Вызов из функции: self._bootstrap_inner()
+2022-03-25 21:51:27,753  DEBUG     decos.py   Была вызвана функция: create_exit_message, с параметрами: ('User1',), {}. Вызов из модуля: __main__. Вызов из функции: self._bootstrap_inner()
+2022-03-25 21:51:27,754  INFO      client.py  Завершение работы по команде пользователя.
+2022-03-25 21:51:27,781  CRITICAL  client.py  Потеряно соединение с сервером.
+2022-03-25 21:51:27,782  DEBUG     decos.py   Была вызвана функция: message_from_server, с параметрами: (<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 36836), raddr=('127.0.0.1', 7777)>, 'User1'), {}. Вызов из модуля: __main__. Вызов из функции: self._bootstrap_inner()
+2022-03-25 21:51:28,254  DEBUG     decos.py   Была вызвана функция: user_interactive, с параметрами: (<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 36836), raddr=('127.0.0.1', 7777)>, 'User1'), {}. Вызов из модуля: __main__. Вызов из функции: self._bootstrap_inner()
